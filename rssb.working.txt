@@ -1,0 +1,499 @@
+0     dw 347
+1     dw 0
+2     dw 0
+3     dw 0
+4     dw 0
+5     dw 0
+6     dw 0
+7     dw "Welcome to FLARE spy messenger by Nick Harbour."
+54    dw 13
+55    dw 10
+56    dw "Your preferred covert communication tool since 1776."
+108   dw 13
+109   dw 10
+110   dw "Please wait while I check that password..."
+152   dw 0
+153   dw 13
+154   dw 10
+155   dw "Password Matched."
+172   dw 13
+173   dw 10
+174   dw "You win it. Congratulations!"
+202   dw 13
+203   dw 10
+204   dw 13
+205   dw 10
+206   dw 0
+207   dw 13
+208   dw 10
+209   dw "Incorrect Password."
+228   dw 13
+229   dw 10
+230   dw "You fail it. Please try harder."
+261   dw 13
+262   dw 10
+263   dw 0
+264   dw "Magic"
+269   dw 0
+270   dw 0
+271   dw 0
+272   dw 0
+273   dw 0
+274   dw 0
+275   dw 0
+276   dw 0
+277   dw 0
+278   dw 0
+279   dw 0
+280   dw 0
+281   dw 0
+282   dw 0
+283   dw 0
+284   dw 0
+285   dw 0
+286   dw 0
+287   dw 0
+288   dw 0
+289   dw 0
+290   dw 0
+291   dw 0
+292   dw 0
+293   dw 0
+294   dw 0
+295   dw 0
+296   dw 0
+297   dw 0
+298   dw 0
+299   dw 0
+300   dw 0
+301   dw 0
+302   dw 0
+303   dw 0
+304   dw 0
+305   dw 0
+306   dw 0
+307   dw 0
+308   dw 0
+309   dw 0
+310   dw 0
+311   dw 0
+312   dw 0
+313   dw 0
+314   dw 0
+315   dw 0
+316   dw 0
+317   dw 0
+318   dw 0
+319   dw 0
+320   dw 0
+321   dw 0
+322   dw 0
+323   dw 0
+324   dw 0
+325   dw 0
+326   dw 0
+327   dw 0
+328   dw 0
+329   dw 0
+330   dw 0
+331   dw 0
+332   dw 0
+333   dw 0
+334   dw 0
+335   dw "Box"
+338   dw 0
+339   dw 0
+340   dw 0
+341   dw 0
+342   dw 0
+343   dw 0
+344   dw 0
+345   dw 338
+346   dw 0
+
+word var_375 = 7;
+word var_568 = 1;
+word var_575 = 64;  //'@'
+word var_675 = 270;
+word var_868 = 1;
+word var_914 = 1;
+word var_1012 = 1;
+word var_1044 = 1;
+word var_1260 = 1;
+word var_1292 = 1;
+word var_1428 = 0;
+word var_1463 = 207;
+word var_1656 = 1;
+word var_1686 = 153;
+word var_1879 = 1;
+word var_1887 = 0;
+word var_1909 = 0;
+word var_1916 = -2;
+word var_1923 = 0;
+word var_1981 = 0;
+word var_2109 = 1;
+word var_2141 = 1;
+word var_2357 = 1;
+word var_2389 = 1;
+word var_2525 = 0;
+word var_2574 = 1;
+word var_2587 = 1;
+word var_2609 = 1;
+word var_2707 = 0;
+word var_2729 = 0;
+word var_2736 = -2;
+word var_2743 = 0;
+word var_2801 = 0;
+word var_2808 = -3;
+word var_2815 = 0;
+word var_2873 = 0;
+word var_2880 = 0;
+word var_2887 = 0;
+word var_2894 = 0;
+word var_2901 = 0;
+word var_2908 = 0;
+word var_2915 = 0;
+word var_2922 = 0;
+word var_2929 = 1;
+word var_2936 = 0;
+word var_2943 = 64;  //'@'
+word var_2950 = -105;
+word var_3108 = 1;
+word var_3140 = 1;
+word var_3270 = 0;
+word var_3443 = 1;
+word var_3475 = 1;
+word var_3691 = 1;
+word var_3723 = 1;
+word var_3859 = 0;
+word var_3988 = 1;
+word var_4020 = 1;
+word var_4236 = 1;
+word var_4268 = 1;
+word var_4404 = 0;
+word var_4448 = 1;
+word var_4970 = 15;
+word var_5077 = 1;
+word var_5109 = 1;
+word var_5239 = 0;
+word var_5324 = 1;
+word var_5370 = 32;  //' '
+word var_5386 = 32;  //' '
+word var_5393 = 0;
+word var_5409 = 7;
+word var_5516 = 1;
+word var_5548 = 1;
+word var_5678 = 0;
+word var_5734 = 1;
+word var_6028 = 16;
+word var_6135 = 1;
+word var_6167 = 1;
+word var_6297 = 0;
+word var_6380 = 1;
+word var_6412 = 1;
+word var_6656 = 1;
+word var_6688 = 1;
+word var_6968 = 1;
+word var_7000 = 1;
+word var_7216 = 1;
+word var_7248 = 1;
+word var_7384 = 0;
+word var_7400 = 1;
+word var_7498 = 1;
+word var_7530 = 1;
+word var_7746 = 1;
+word var_7778 = 1;
+word var_7914 = 0;
+word var_8091 = 1;
+word var_8147 = 1;
+word var_8160 = 1;
+word var_8209 = 2681;
+word var_8352 = 1;
+word var_8384 = 1;
+word var_8600 = 1;
+word var_8632 = 1;
+word var_8768 = 0;
+word var_8796 = 1;
+word var_8933 = 1;
+word var_8965 = 1;
+word var_9181 = 1;
+word var_9213 = 1;
+word var_9349 = 0;
+word var_9363 = 0;
+word var_9394 = 2;
+word var_9471 = 1;
+word var_9478 = 0;
+word var_9509 = 2;
+word var_9583 = 1;
+
+
+sub_347()
+354   call sub_1881(var_375);
+553   esp -= var_568;
+576   call sub_2701(var_675, var_575);
+853   esp -= var_868;
+869   mem[346] = [esp];
+899   esp -= var_914;
+915   if (mem[346] == 0) jmp 1435; else jmp 1422;
+1429  jmp 1658;
+1442  call sub_1881(var_1463);
+1641  esp -= var_1656;
+1657  RSSB mem[-2]
+1665  call sub_1881(var_1686);
+1864  esp -= var_1879;
+1880  RSSB mem[-2]
+
+sub_1881(int)
+1888  var_1887 = esp;
+1902  RSSB acc
+1924  var_1909 = [var_1887 + var_1916];
+1982  var_1981 = [var_1909];
+2012  if (var_1981 == 0) jmp 2532; else jmp 2519;
+2526  jmp 2538;
+2532  jmp 2594;
+2538  output = var_1981;
+2552  RSSB acc
+2553  output flag = var_2574;
+2567  RSSB acc
+2575  var_1909 += var_2587;
+2580  RSSB acc
+2588  jmp 1982;
+2594  ret
+
+2681  RSSB mem[-897]
+2682  RSSB mem[-3313]
+2683  RSSB mem[-3231]
+2684  RSSB mem[-3759]
+2685  RSSB mem[-1914]
+2686  RSSB mem[-3119]
+2687  RSSB mem[-9385]
+2688  RSSB mem[-9771]
+2689  RSSB mem[-7570]
+2690  RSSB mem[-1843]
+2691  RSSB mem[-1687]
+2692  RSSB mem[-9972]
+2693  RSSB mem[-2015]
+2694  RSSB mem[-3711]
+2695  RSSB mem[-1953]
+2696  RSSB mem[-1917]
+2697  RSSB mem[-7519]
+2698  RSSB mem[-2948]
+2699  RSSB mem[-5541]
+2700  RSSB mem[-517]
+
+sub_2701(int, int)
+2708  var_2707 = esp;
+2722  RSSB acc
+2744  var_2729 = [var_2707 + var_2736];
+2816  var_2801 = [var_2707 + var_2808];
+2951  var_2922 = 0;
+2960  var_2894 = 0; // Length before '@' (always 51)
+2969  var_2908 = 0;
+2978  var_2915 = 0;
+2987  var_2887 = 0; // Sum of characters before '@'
+
+// Calculate sum and length, fail if total length < 64
+2996  	jmp 3002;
+3002  	var_3270 = var_2894;
+3016  	RSSB acc
+3017  	var_3270 -= var_2801;
+3026  	if (var_3270 >= 0) jmp 3258; else jmp 3264;
+3258  	jmp 4455;
+3271  	var_2873 = [var_2894 + var_2729];
+3322  	if (var_2873 == var_2943) jmp 4424; else jmp 3853
+3867  	if (var_2873 == var_2901) jmp 4430; else jmp 4398
+4412  	var_2887 += var_2873;
+4417  	RSSB acc
+4418  	jmp 4436;
+4424  	jmp 4455;
+4430  	jmp 9357;
+4436  	var_2894 += var_4448;
+4441  	RSSB acc
+4449  	jmp 2996;
+
+// var_2887 = sum(password) + len(password) * 3072
+4455  var_2894 *= 2;
+4498  var_2894 *= 2;
+4541  var_2894 *= 2;
+4584  var_2894 *= 2;
+4627  var_2894 *= 2;
+4670  var_2894 *= 2;
+4713  var_2894 *= 2;
+4756  var_2894 *= 2;
+4799  var_2894 *= 2;
+4842  var_2894 *= 2;
+4885  var_2908 = var_2894;
+4899  RSSB acc
+4900  var_2894 *= 2;
+4943  var_2894 += var_2908;
+4948  RSSB acc
+4949  var_2887 += var_2894;
+4954  RSSB acc
+
+// for(int var_2894 = 0; var_2894 < 15; var_2894++)
+4955  var_2894 = 0;
+4971  	var_5239 = var_2894;
+4985  	RSSB acc
+4986  	var_5239 -= var_4970;
+4995  	if (var_5239 >= 0) jmp 5227; else jmp 5233;
+5227  	jmp 8803;
+
+// var_2873 = password[2 * i]
+5240  	var_2908 = var_2729;
+5254  	RSSB acc
+5255  	var_2915 = var_2894;
+5269  	RSSB acc
+5270  	var_2915 += var_2894;
+5275  	RSSB acc
+5276  	var_2908 += var_2915;
+5281  	RSSB acc
+5282  	var_2873 = [var_2908];
+
+// var_2880 = password[2 * i + 1]
+5312  	var_2908 += var_5324;
+5317  	RSSB acc
+5325  	var_2880 = [var_2908];
+
+// var_2873, var_2880 -= 32
+5355  	var_2873 -= var_5370;
+5371  	var_2880 -= var_5386;
+
+// var_2880 = var_2880 * 128 + var_2873
+5394  	var_5393 = 0;
+5410  		var_5678 = var_5393;
+5424  		RSSB acc
+5425  		var_5678 -= var_5409;
+5434  		if (var_5678 >= 0) jmp 5666; else jmp 5672;
+5666  		jmp 5741;
+5679  		var_2880 *= 2;
+5722  		var_5393 += var_5734;
+5727  		RSSB acc
+5735  		jmp 5403;
+5741  	var_2880 += var_2873;
+
+// var_2908 = i * 33
+5746  	RSSB acc
+5747  	var_2908 = var_2894;
+5761  	RSSB acc
+5762  	var_2908 *= 2;
+5805  	var_2908 *= 2;
+5848  	var_2908 *= 2;
+5891  	var_2908 *= 2;
+5934  	var_2908 *= 2;
+5977  	var_2908 += var_2894;
+
+5982  	RSSB acc
+5983  	mem[7922] = var_2880; // pair
+5997  	RSSB acc
+5998  	mem[7923] = var_2908; // idx
+
+// for(int mem[7929] = 0; mem[7929] < 16; mem[7929]++)
+6012  	RSSB acc
+6013  	mem[7929] = 0;	
+6029  		var_6297 = mem[7929];
+6043  		RSSB acc
+6044  		var_6297 -= var_6028;
+6053  		if (var_6297 >= 0) jmp 6285; else jmp 6291;
+6285  		jmp 8167;
+
+// mem[7924] = 1 if mem[7922] < 0 else 0
+6298  		if (mem[7922] >= 0) jmp 6530; else jmp 6551;
+6530  		mem[7924] = mem[6573];
+6544  		RSSB acc
+6545  		jmp 6574;
+6551  		mem[7924] = mem[6572];
+6565  		RSSB acc
+6566  		jmp 6574;
+6572  		RSSB acc
+6573  		RSSB ip
+
+// mem[7925] = 1 if mem[7923] < 0 else 0
+6574  		if (mem[7923] >= 0) jmp 6806; else jmp 6827;
+6806  		mem[7925] = mem[6849];
+6820  		RSSB acc
+6821  		jmp 6850;
+6827  		mem[7925] = mem[6848];
+6841  		RSSB acc
+6842  		jmp 6850;
+6848  		RSSB acc
+6849  		RSSB ip
+
+// mem[7921] = mem[7924] + mem[7925]
+6850  		mem[7921] = mem[7924];
+6864  		RSSB acc
+6865  		mem[7921] += mem[7925];
+6870  		RSSB acc
+
+// mem[7924] = 1 if mem[7921] == 1 else 0
+6871  		if (mem[7921] == 0) jmp 7930; else jmp 7378;
+7385  		mem[7921] -= var_7400;
+7401  		if (mem[7921] == 0) jmp 7951; else jmp 7908;
+7915  		jmp 7972;
+7921  		RSSB ip
+7922  		RSSB ip
+7923  		RSSB ip
+7924  		RSSB ip
+7925  		RSSB ip
+7926  		RSSB ip
+7927  		RSSB ip
+7928  		RSSB acc
+7929  		RSSB ip
+7930  		mem[7924] = mem[7927];
+7944  		RSSB acc
+7945  		jmp 7987;
+7951  		mem[7924] = mem[7928];
+7965  		RSSB acc
+7966  		jmp 7987;
+7972  		mem[7924] = mem[7927];
+7986  		RSSB acc
+
+7987  		mem[7926] *= 2;
+8030  		mem[7926] += mem[7924];
+8035  		RSSB acc
+8036  		mem[7922] *= 2;
+8079  		mem[7922] += var_8091;
+8084  		RSSB acc
+8092  		mem[7923] *= 2;
+8135  		mem[7923] += var_8147;
+8140  		RSSB acc
+
+8148  		mem[7929] += var_8160;
+8153  		RSSB acc
+8161  		jmp 6022;
+
+// var_2908 = mem[7926] + var_2887
+8167  	var_2908 = mem[7926];
+8181  	RSSB acc
+8182  	var_2908 += var_2887;
+8187  	RSSB acc
+8188  	var_2873 = [var_2894 + var_8209];
+
+// if var_2908 == var_8209[var_2894] : var_2922 -= var_2894
+8246  	var_2908 -= var_2873;
+8255  	if (var_2908 == 0) jmp 8775; else jmp 8762;
+8769  	var_2922 += var_2894;
+8774  	RSSB acc
+8775  	var_2922 -= var_2894;
+8784  	var_2894 += var_8796;
+8789  	RSSB acc
+8797  	jmp 4964;
+
+8803  mem[269] = 0;
+8812  if (var_2922 == var_2950) jmp 9459; else jmp 9343
+9364  var_9363 = var_2707;
+9378  RSSB acc
+9379  var_9363 -= var_9394;
+9395  [var_9363] = var_2936;
+9452  RSSB acc
+9453  jmp 9568;
+
+9459  mem[269] += var_9471;
+9464  RSSB acc
+9479  var_9478 = var_2707;
+9493  RSSB acc
+9494  var_9478 -= var_9509;
+9510  [var_9478] = var_2929;
+9567  RSSB acc
+
+9568  ret
+
